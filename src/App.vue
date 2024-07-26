@@ -1,15 +1,17 @@
-<script setup>
-    import
+<script>
+import AppTitle from "./components/Apptitle.vue"
+export default {
+  components: {
+    AppTitle
+  }
+}
 </script>
 
 <template>
-    <header></header>
-    <main>
-        <h2> La mia prima app con Vite! </h2>
-    </main>
-    <footer></footer>
+
+   <header>
+    <AppTitle />
+   </header>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
